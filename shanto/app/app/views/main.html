@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="styles/main.css">
+    <div class="row">
+
+        <div class="col-md-6 col-md-offset-2">
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+                     Login</div>
+                <div class="panel-body">
+                        
+                    <form class="form-horizontal" role="form" ng-model="form">
+                    <div class="form-group">
+                        <label  class="col-sm-3 control-label">
+
+                            Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" ng-model="email"  class="form-control" id="inputEmail3" placeholder="Email"required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-3 control-label">
+                            Password</label>
+                        <div class="col-sm-9 form-control-wrapper">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required ng-model="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"/>
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group last">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <button type="submit" class="btn btn-success "  id="submit" ng-click="login()">
+                                Sign in</button>
+                                 <button type="reset" class="btn btn-default ">
+                                Reset</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="panel-footer">
+                    <a ng-href="#">Not Registred? Register here</a></div>
+            </div>
+        </div>
+    </div>  <p ng-model="pass"></p>
+
+
+
+
+<!-- <div class="row" ng-controller="login">
+  <div class="col-md-offset-5 col-md-3">
+     <div class="panel panel-primary">
+         <div class="panel-heading"> <h4>Login Here</h4></div>
+            <div class="panel-body">   
+                <form role="form">              
+                     <input type="text" id="email_login" class="form-control input-sm chat-input" placeholder="Email Address" ng-model="email" required/>
+                     </br>
+                     <input type="password" id="password_login" class="form-control input-sm chat-input" placeholder="Password" ng-model="password" required/>
+                    </br>                          
+                    <input type="submit" value="Login" class="btn btn-success" ng-click="login()">
+                    <input type="reset" value="Reset" class="btn btn-danger"><br><br>
+                    <a ng-href="#/Signup">Not a Member?</a>
+                </form>
+           </div>
+        </div>  
+   </div>
+</div>
+ -->
+
+
+

@@ -1,0 +1,305 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.13.1
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from /home/shanto/baabtra/app/package.json
+5 warn package.json app@0.0.0 No license field.
+6 verbose install where, deps [ '/home/shanto/baabtra/app',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-filerev',
+6 verbose install     'grunt-google-cdn',
+6 verbose install     'grunt-newer',
+6 verbose install     'grunt-ng-annotate',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-wiredep',
+6 verbose install     'jshint-stylish',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'time-grunt' ] ]
+7 verbose install where, peers [ '/home/shanto/baabtra/app', [] ]
+8 verbose installManyTop reading for lifecycle /home/shanto/baabtra/app/package.json
+9 info preinstall app@0.0.0
+10 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt/package.json
+11 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-autoprefixer/package.json
+12 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-concurrent/package.json
+13 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-clean/package.json
+14 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-concat/package.json
+15 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-connect/package.json
+16 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-copy/package.json
+17 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-cssmin/package.json
+18 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-htmlmin/package.json
+19 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-imagemin/package.json
+20 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-jshint/package.json
+21 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-uglify/package.json
+22 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-watch/package.json
+23 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-filerev/package.json
+24 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-google-cdn/package.json
+25 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-karma/package.json
+26 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-newer/package.json
+27 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-ng-annotate/package.json
+28 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-svgmin/package.json
+29 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-usemin/package.json
+30 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/grunt-wiredep/package.json
+31 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/jasmine-core/package.json
+32 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/jshint-stylish/package.json
+33 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/karma/package.json
+34 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/karma-jasmine/package.json
+35 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/karma-phantomjs-launcher/package.json
+36 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/load-grunt-tasks/package.json
+37 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/phantomjs/package.json
+38 verbose installManyTop reading scoped package data from /home/shanto/baabtra/app/node_modules/time-grunt/package.json
+39 info package.json grunt@0.4.5 No license field.
+40 info package.json grunt-contrib-connect@0.9.0 No license field.
+41 info package.json grunt-contrib-cssmin@0.12.3 No license field.
+42 info package.json grunt-contrib-imagemin@0.9.4 No license field.
+43 info package.json grunt-contrib-htmlmin@0.4.0 No license field.
+44 info package.json grunt-contrib-uglify@0.7.0 No license field.
+45 info package.json grunt-contrib-watch@0.6.1 No license field.
+46 info package.json grunt-google-cdn@0.4.3 license should be a valid SPDX license expression
+47 info package.json grunt-wiredep@2.0.0 No license field.
+48 info package.json phantomjs@1.9.17 No license field.
+49 info package.json grunt-contrib-clean@0.6.0 No license field.
+50 info package.json grunt-contrib-copy@0.7.0 No license field.
+51 info package.json grunt-filerev@2.3.1 license should be a valid SPDX license expression
+52 info package.json grunt-contrib-concat@0.5.1 No license field.
+53 info package.json grunt-contrib-jshint@0.11.2 No license field.
+54 info package.json grunt-svgmin@2.0.1 No license field.
+55 verbose readDependencies loading dependencies from /home/shanto/baabtra/app/package.json
+56 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt/package.json
+57 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-autoprefixer/package.json
+58 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-concurrent/package.json
+59 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-clean/package.json
+60 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-concat/package.json
+61 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-connect/package.json
+62 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-copy/package.json
+63 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-cssmin/package.json
+64 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-htmlmin/package.json
+65 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-imagemin/package.json
+66 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-jshint/package.json
+67 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-uglify/package.json
+68 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-contrib-watch/package.json
+69 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-filerev/package.json
+70 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-google-cdn/package.json
+71 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-karma/package.json
+72 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-newer/package.json
+73 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-ng-annotate/package.json
+74 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-svgmin/package.json
+75 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-usemin/package.json
+76 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/grunt-wiredep/package.json
+77 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/jasmine-core/package.json
+78 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/jshint-stylish/package.json
+79 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/karma/package.json
+80 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/karma-jasmine/package.json
+81 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/karma-phantomjs-launcher/package.json
+82 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/load-grunt-tasks/package.json
+83 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/phantomjs/package.json
+84 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/time-grunt/package.json
+85 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/.bin/karma/package.json
+86 verbose targetResolver reading package data from /home/shanto/baabtra/app/node_modules/.bin/phantomjs/package.json
+87 verbose already installed skipping grunt-concurrent@^1.0.0 /home/shanto/baabtra/app
+88 verbose already installed skipping grunt-contrib-clean@^0.6.0 /home/shanto/baabtra/app
+89 verbose already installed skipping grunt-contrib-concat@^0.5.0 /home/shanto/baabtra/app
+90 verbose already installed skipping grunt-contrib-connect@^0.9.0 /home/shanto/baabtra/app
+91 verbose already installed skipping grunt-contrib-copy@^0.7.0 /home/shanto/baabtra/app
+92 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 /home/shanto/baabtra/app
+93 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 /home/shanto/baabtra/app
+94 verbose already installed skipping grunt-contrib-imagemin@^0.9.2 /home/shanto/baabtra/app
+95 verbose already installed skipping grunt-contrib-jshint@^0.11.0 /home/shanto/baabtra/app
+96 verbose already installed skipping grunt-contrib-uglify@^0.7.0 /home/shanto/baabtra/app
+97 verbose already installed skipping grunt-contrib-watch@^0.6.1 /home/shanto/baabtra/app
+98 verbose already installed skipping grunt-filerev@^2.1.2 /home/shanto/baabtra/app
+99 verbose already installed skipping grunt-google-cdn@^0.4.3 /home/shanto/baabtra/app
+100 verbose already installed skipping grunt-newer@^1.1.0 /home/shanto/baabtra/app
+101 verbose already installed skipping grunt-ng-annotate@^0.9.2 /home/shanto/baabtra/app
+102 verbose already installed skipping grunt-svgmin@^2.0.0 /home/shanto/baabtra/app
+103 verbose already installed skipping grunt-usemin@^3.0.0 /home/shanto/baabtra/app
+104 verbose already installed skipping grunt-wiredep@^2.0.0 /home/shanto/baabtra/app
+105 verbose already installed skipping jshint-stylish@^1.0.0 /home/shanto/baabtra/app
+106 verbose already installed skipping load-grunt-tasks@^3.1.0 /home/shanto/baabtra/app
+107 verbose already installed skipping time-grunt@^1.0.0 /home/shanto/baabtra/app
+108 verbose already installed skipping grunt@^0.4.5 /home/shanto/baabtra/app
+109 verbose already installed skipping grunt-autoprefixer@^2.0.0 /home/shanto/baabtra/app
+110 silly install resolved []
+111 info build /home/shanto/baabtra/app
+112 info linkStuff app@0.0.0
+113 silly linkStuff app@0.0.0 has /home/shanto/baabtra as its parent node_modules
+114 verbose linkBins app@0.0.0
+115 verbose linkMans app@0.0.0
+116 verbose rebuildBundles app@0.0.0
+117 verbose rebuildBundles [ '.bin',
+117 verbose rebuildBundles   'grunt',
+117 verbose rebuildBundles   'grunt-autoprefixer',
+117 verbose rebuildBundles   'grunt-concurrent',
+117 verbose rebuildBundles   'grunt-contrib-clean',
+117 verbose rebuildBundles   'grunt-contrib-concat',
+117 verbose rebuildBundles   'grunt-contrib-connect',
+117 verbose rebuildBundles   'grunt-contrib-copy',
+117 verbose rebuildBundles   'grunt-contrib-cssmin',
+117 verbose rebuildBundles   'grunt-contrib-htmlmin',
+117 verbose rebuildBundles   'grunt-contrib-imagemin',
+117 verbose rebuildBundles   'grunt-contrib-jshint',
+117 verbose rebuildBundles   'grunt-contrib-uglify',
+117 verbose rebuildBundles   'grunt-contrib-watch',
+117 verbose rebuildBundles   'grunt-filerev',
+117 verbose rebuildBundles   'grunt-google-cdn',
+117 verbose rebuildBundles   'grunt-karma',
+117 verbose rebuildBundles   'grunt-newer',
+117 verbose rebuildBundles   'grunt-ng-annotate',
+117 verbose rebuildBundles   'grunt-svgmin',
+117 verbose rebuildBundles   'grunt-usemin',
+117 verbose rebuildBundles   'grunt-wiredep',
+117 verbose rebuildBundles   'jasmine-core',
+117 verbose rebuildBundles   'jshint-stylish',
+117 verbose rebuildBundles   'karma',
+117 verbose rebuildBundles   'karma-jasmine',
+117 verbose rebuildBundles   'karma-phantomjs-launcher',
+117 verbose rebuildBundles   'load-grunt-tasks',
+117 verbose rebuildBundles   'phantomjs',
+117 verbose rebuildBundles   'time-grunt' ]
+118 verbose rebuild bundle /home/shanto/baabtra/app/node_modules/grunt-karma
+119 info build /home/shanto/baabtra/app/node_modules/grunt-karma
+120 info preinstall grunt-karma@0.12.0
+121 info linkStuff grunt-karma@0.12.0
+122 silly linkStuff grunt-karma@0.12.0 has /home/shanto/baabtra/app/node_modules as its parent node_modules
+123 verbose linkBins grunt-karma@0.12.0
+124 verbose linkMans grunt-karma@0.12.0
+125 verbose rebuildBundles grunt-karma@0.12.0
+126 verbose rebuildBundles [ 'lodash' ]
+127 info install grunt-karma@0.12.0
+128 info postinstall grunt-karma@0.12.0
+129 verbose rebuild bundle /home/shanto/baabtra/app/node_modules/jasmine-core
+130 info build /home/shanto/baabtra/app/node_modules/jasmine-core
+131 info preinstall jasmine-core@2.3.4
+132 info linkStuff jasmine-core@2.3.4
+133 silly linkStuff jasmine-core@2.3.4 has /home/shanto/baabtra/app/node_modules as its parent node_modules
+134 verbose linkBins jasmine-core@2.3.4
+135 verbose linkMans jasmine-core@2.3.4
+136 verbose rebuildBundles jasmine-core@2.3.4
+137 info install jasmine-core@2.3.4
+138 info postinstall jasmine-core@2.3.4
+139 verbose rebuild bundle /home/shanto/baabtra/app/node_modules/karma
+140 info build /home/shanto/baabtra/app/node_modules/karma
+141 info preinstall karma@0.13.2
+142 info linkStuff karma@0.13.2
+143 silly linkStuff karma@0.13.2 has /home/shanto/baabtra/app/node_modules as its parent node_modules
+144 verbose linkBins karma@0.13.2
+145 verbose link bins [ { karma: './bin/karma' },
+145 verbose link bins   '/home/shanto/baabtra/app/node_modules/.bin',
+145 verbose link bins   false ]
+146 verbose linkMans karma@0.13.2
+147 verbose rebuildBundles karma@0.13.2
+148 silly gentlyRm /home/shanto/baabtra/app/node_modules/.bin/karma is being purged
+149 verbose gentlyRm don't care about contents; nuking /home/shanto/baabtra/app/node_modules/.bin/karma
+150 silly vacuum-fs purging /home/shanto/baabtra/app/node_modules/.bin/karma
+151 silly vacuum-fs quitting because other entries in /home/shanto/baabtra/app/node_modules/.bin
+152 verbose rebuildBundles [ '.bin',
+152 verbose rebuildBundles   'bluebird',
+152 verbose rebuildBundles   'body-parser',
+152 verbose rebuildBundles   'chokidar',
+152 verbose rebuildBundles   'colors',
+152 verbose rebuildBundles   'connect',
+152 verbose rebuildBundles   'core-js',
+152 verbose rebuildBundles   'di',
+152 verbose rebuildBundles   'dom-serialize',
+152 verbose rebuildBundles   'expand-braces',
+152 verbose rebuildBundles   'glob',
+152 verbose rebuildBundles   'graceful-fs',
+152 verbose rebuildBundles   'http-proxy',
+152 verbose rebuildBundles   'lodash',
+152 verbose rebuildBundles   'log4js',
+152 verbose rebuildBundles   'memoizee',
+152 verbose rebuildBundles   'mime',
+152 verbose rebuildBundles   'minimatch',
+152 verbose rebuildBundles   'optimist',
+152 verbose rebuildBundles   'rimraf',
+152 verbose rebuildBundles   'socket.io',
+152 verbose rebuildBundles   'source-map',
+152 verbose rebuildBundles   'useragent' ]
+153 info install karma@0.13.2
+154 info postinstall karma@0.13.2
+155 verbose rebuild bundle /home/shanto/baabtra/app/node_modules/karma-jasmine
+156 info build /home/shanto/baabtra/app/node_modules/karma-jasmine
+157 info preinstall karma-jasmine@0.3.6
+158 info linkStuff karma-jasmine@0.3.6
+159 silly linkStuff karma-jasmine@0.3.6 has /home/shanto/baabtra/app/node_modules as its parent node_modules
+160 verbose linkBins karma-jasmine@0.3.6
+161 verbose linkMans karma-jasmine@0.3.6
+162 verbose rebuildBundles karma-jasmine@0.3.6
+163 info install karma-jasmine@0.3.6
+164 info postinstall karma-jasmine@0.3.6
+165 verbose rebuild bundle /home/shanto/baabtra/app/node_modules/karma-phantomjs-launcher
+166 info build /home/shanto/baabtra/app/node_modules/karma-phantomjs-launcher
+167 info preinstall karma-phantomjs-launcher@0.2.0
+168 info linkStuff karma-phantomjs-launcher@0.2.0
+169 silly linkStuff karma-phantomjs-launcher@0.2.0 has /home/shanto/baabtra/app/node_modules as its parent node_modules
+170 verbose linkBins karma-phantomjs-launcher@0.2.0
+171 verbose linkMans karma-phantomjs-launcher@0.2.0
+172 verbose rebuildBundles karma-phantomjs-launcher@0.2.0
+173 verbose rebuildBundles [ 'lodash' ]
+174 info install karma-phantomjs-launcher@0.2.0
+175 info postinstall karma-phantomjs-launcher@0.2.0
+176 verbose rebuild bundle /home/shanto/baabtra/app/node_modules/phantomjs
+177 info build /home/shanto/baabtra/app/node_modules/phantomjs
+178 info preinstall phantomjs@1.9.17
+179 info linkStuff phantomjs@1.9.17
+180 silly linkStuff phantomjs@1.9.17 has /home/shanto/baabtra/app/node_modules as its parent node_modules
+181 verbose linkBins phantomjs@1.9.17
+182 verbose link bins [ { phantomjs: './bin/phantomjs' },
+182 verbose link bins   '/home/shanto/baabtra/app/node_modules/.bin',
+182 verbose link bins   false ]
+183 verbose linkMans phantomjs@1.9.17
+184 verbose rebuildBundles phantomjs@1.9.17
+185 silly gentlyRm /home/shanto/baabtra/app/node_modules/.bin/phantomjs is being purged
+186 verbose gentlyRm don't care about contents; nuking /home/shanto/baabtra/app/node_modules/.bin/phantomjs
+187 silly vacuum-fs purging /home/shanto/baabtra/app/node_modules/.bin/phantomjs
+188 silly vacuum-fs quitting because other entries in /home/shanto/baabtra/app/node_modules/.bin
+189 verbose rebuildBundles [ '.bin',
+189 verbose rebuildBundles   'adm-zip',
+189 verbose rebuildBundles   'fs-extra',
+189 verbose rebuildBundles   'kew',
+189 verbose rebuildBundles   'npmconf',
+189 verbose rebuildBundles   'progress',
+189 verbose rebuildBundles   'request',
+189 verbose rebuildBundles   'request-progress',
+189 verbose rebuildBundles   'which' ]
+190 info install phantomjs@1.9.17
+191 verbose unsafe-perm in lifecycle true
+192 info phantomjs@1.9.17 Failed to exec install script
+193 verbose stack Error: phantomjs@1.9.17 install: `node install.js`
+193 verbose stack Exit status 1
+193 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+193 verbose stack     at EventEmitter.emit (events.js:110:17)
+193 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+193 verbose stack     at ChildProcess.emit (events.js:110:17)
+193 verbose stack     at maybeClose (child_process.js:1015:16)
+193 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+194 verbose pkgid phantomjs@1.9.17
+195 verbose cwd /home/shanto/baabtra/app
+196 error Linux 3.13.0-57-generic
+197 error argv "node" "/usr/local/bin/npm" "install"
+198 error node v0.12.7
+199 error npm  v2.13.1
+200 error code ELIFECYCLE
+201 error phantomjs@1.9.17 install: `node install.js`
+201 error Exit status 1
+202 error Failed at the phantomjs@1.9.17 install script 'node install.js'.
+202 error This is most likely a problem with the phantomjs package,
+202 error not with npm itself.
+202 error Tell the author that this fails on your system:
+202 error     node install.js
+202 error You can get their info via:
+202 error     npm owner ls phantomjs
+202 error There is likely additional logging output above.
+203 verbose exit [ 1, true ]
