@@ -14,7 +14,7 @@ angular.module('loginApp')
 
 
 var log = localStorageService.get('login');
-if (log==null) {
+if (log=="") {
   $window.location.href = '#/main';
 };
          console.log(log);
