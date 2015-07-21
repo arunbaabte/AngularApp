@@ -9,6 +9,9 @@
  */
 angular.module('loginApp')
   .controller('MainCtrl',['$scope','myService','$window','localStorageService', function ($scope,myService,$window,localStorageService) {
+if (localStorageService.get('login')) {
+  $window.location.href = '#/Home';
+};
 $scope.login=function(){
   $scope.login = [];
   var loginInStore = localStorageService.get('login');
