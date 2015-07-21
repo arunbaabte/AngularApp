@@ -1,0 +1,18 @@
+.panel-default {
+opacity: 0.9;
+margin-top:30px;
+}
+.form-group.last { margin-bottom:0px; }
+.col-md-offset-7 {
+  margin-left: 26.333333%;
+}
+
+.centered-form{
+  margin-top: 60px;
+}
+
+.centered-form .panel{
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}     
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNpZ251cC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSxhQUFhO0FBQ2IsZ0JBQWdCO0NBQ2Y7QUFDRCxtQkFBbUIsa0JBQWtCLEVBQUU7QUFDdkM7RUFDRSx3QkFBd0I7Q0FDekI7O0FBRUQ7RUFDRSxpQkFBaUI7Q0FDbEI7O0FBRUQ7RUFDRSxxQ0FBcUM7RUFDckMsOENBQThDO0NBQy9DIiwiZmlsZSI6InNpZ251cC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucGFuZWwtZGVmYXVsdCB7XG5vcGFjaXR5OiAwLjk7XG5tYXJnaW4tdG9wOjMwcHg7XG59XG4uZm9ybS1ncm91cC5sYXN0IHsgbWFyZ2luLWJvdHRvbTowcHg7IH1cbi5jb2wtbWQtb2Zmc2V0LTcge1xuICBtYXJnaW4tbGVmdDogMjYuMzMzMzMzJTtcbn1cblxuLmNlbnRlcmVkLWZvcm17XG4gIG1hcmdpbi10b3A6IDYwcHg7XG59XG5cbi5jZW50ZXJlZC1mb3JtIC5wYW5lbHtcbiAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjgpO1xuICBib3gtc2hhZG93OiByZ2JhKDAsIDAsIDAsIDAuMykgMjBweCAyMHB4IDIwcHg7XG59ICAgICAiXX0= */
