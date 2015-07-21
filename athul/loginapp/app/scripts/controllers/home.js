@@ -10,8 +10,13 @@
 angular.module('loginApp')
   .controller('HomeCtrl',  function ($scope,localStorageService,$window)  {
 
-var log = localStorageService.get('login');
 
+
+
+var log = localStorageService.get('login');
+if (log==null) {
+  $window.location.href = '#/main';
+};
          console.log(log);
          $scope.email=log;
          $scope.logout=function(){

@@ -12,10 +12,11 @@ angular.module('loginApp')
 if (localStorageService.get('login')) {
   $window.location.href = '#/Home';
 };
-$scope.login=function(){
   $scope.login = [];
   var loginInStore = localStorageService.get('login');
   $scope.login = loginInStore || [];
+$scope.login=function(){
+
 var email=$scope.email;
 var pass =$scope.password;
 var promise=myService.loginservice(email,pass)
