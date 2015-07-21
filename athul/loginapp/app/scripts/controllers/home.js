@@ -8,6 +8,11 @@
  * Controller of the loginApp
  */
 angular.module('loginApp')
-  .controller('HomeCtrl',  function ($scope)  {
+  .controller('HomeCtrl',  function ($scope,localStorageService)  {
+
+var log = localStorageService.get('login');
+
+         console.log(log);
+         $scope.email=log;
 
   });
