@@ -17,10 +17,8 @@ var log = localStorageService.get('login');
 if (log=="") {
   $window.location.href = '#/main';
 };
-         console.log(log);
          $scope.email=log;
          $scope.logout=function(){
-console.log("logout");
          	        localStorageService.set('login',"");
          	         $window.location.href = '#/main';
          }

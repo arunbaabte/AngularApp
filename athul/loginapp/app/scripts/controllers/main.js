@@ -21,7 +21,6 @@ var email=$scope.email;
 var pass =$scope.password;
 var promise=myService.loginservice(email,pass)
     promise.then(function(response) {
-      console.log(response.data)
        if(response.data=="false"){
 
          alert("invalid login");
