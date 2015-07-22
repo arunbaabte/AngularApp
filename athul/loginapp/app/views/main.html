@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="styles/main.css">
-
+    <link href="bower_components/bootstrap-material-design/dist/css/roboto.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
     <div class="row">
 <div ng-show="error" class="alert alert-danger col-sm-6 col-sm-offset-2">{{val}}</div>
         <div class="col-md-6 col-md-offset-2">
@@ -53,6 +55,11 @@
     </div>  <p ng-model="pass"></p>
 
 
-
-
-
+<script src="bower_components/bootstrap-material-design/scripts/material.js"></script>
+<script src="bower_components/bootstrap-material-design/scripts/ripples.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+        </script>
