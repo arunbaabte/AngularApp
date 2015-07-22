@@ -18,13 +18,14 @@ if (localStorageService.get('login')) {
 $scope.login=function(){
 
 var email=$scope.email;
+console.log(email);
 var pass =$scope.password;
 var promise=myService.loginservice(email,pass)
     promise.then(function(response) {
+      console.log(response.data)
        if(response.data=="false"){
-
-         alert("invalid login");
-
+$scope.error=true;
+$scope.val="Username or password is incorrect";
        }
        else{
         data=response.data;

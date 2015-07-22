@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="styles/main.css">
+<div ng-show="error" class="alert alert-danger">{{val}}</div>
     <div class="row">
 
         <div class="col-md-6 col-md-offset-2">
@@ -6,7 +7,7 @@
 
                 <div class="panel-heading">
                      Login</div>
-                <div class="panel-body">
+                <div class="panel-body" ng-model="login">
                         
                     <form class="form-horizontal" role="form" ng-model="form">
                     <div class="form-group">
