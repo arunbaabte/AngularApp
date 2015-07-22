@@ -28,6 +28,7 @@ var promise=myService.loginservice(email,pass)
        }
        else{
         data=response.data;
+        console.log(data);
         localStorageService.set('login',data);
         $window.location.href = '#/Home';
        }
