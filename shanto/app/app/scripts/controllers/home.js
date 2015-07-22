@@ -19,6 +19,7 @@ if (log=="") {
 };
          $scope.email=log;
          $scope.logout=function(){
+         	
          	        localStorageService.set('login',"");
          	         $window.location.href = '#/main';
          }
