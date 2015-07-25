@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="styles/main.css">
+    <link href="bower_components/bootstrap-material-design/dist/css/roboto.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+<!-- <div ng-show="error" class="alert alert-dismissable alert-danger col-sm-6 col-sm-offset-2">{{val}}</div> -->
+<div class="navbar navbar-default">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="javascript:void(0)"></a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+            <li><a ng-href="#/home">Home</a></li>
+            <li><a ng-href="#/profile">profile</a></li>
+            
+            <li class="active"><a>Registration</a></li>
+            <li ng-click="logout()"><a>Logout</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="well bs-component">
+<form class="form-horizontal">
+    <fieldset>
+        <legend>Signup</legend>
+                <div class="form-group">
+            <label for="inputEmail" class="col-lg-2 control-label">name</label>
+            <div class="col-lg-10">
+                <input type="text" class="form-control" id="inputEmail" placeholder="name" ng-model="name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+            <div class="col-lg-10">
+                <input type="password" class="form-control"  placeholder="Password" ng-model="password" >
+               
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword" class="col-lg-2 control-label">cinfirm Password</label>
+            <div class="col-lg-10">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+               
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="inputFile" class="col-lg-2 control-label">Phone No</label>
+            <div class="col-lg-10">
+                <input type="text"  class="form-control" placeholder="" ng-model="pic">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="textArea" class="col-lg-2 control-label">address</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" rows="3" id="textArea" ng-model="address"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2 control-label">Gender</label>
+            <div class="col-lg-10">
+                <div class="radio radio-primary">
+                    <label>
+                        <input type="radio" name="gender"  value="male" checked ng-model="gender">
+                        male
+                    </label>
+                </div>
+                <div class="radio radio-primary">
+                    <label>
+                        <input type="radio" name="gender"  value="female" ng-model="gender">
+                        female
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button class="btn btn-default btn-raised">Cancel</button>
+                <button type="submit" class="btn btn-primary btn-raised" ng-click="sign()">Submit</button>
+            </div>            
+
+
+    </fieldset>
+</form>
+</div>
+<script src="bower_components/bootstrap-material-design/scripts/material.js"></script>
+<script src="bower_components/bootstrap-material-design/scripts/ripples.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+        </script>

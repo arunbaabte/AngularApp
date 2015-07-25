@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="styles/main.css">
+    <link href="bower_components/bootstrap-material-design/dist/css/roboto.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+
+    <div class="row ">
+
+
+
+
+<div ng-show="error" class="alert alert-dismissable alert-danger col-sm-6 col-sm-offset-2">{{val}}</div>
+        <div class="col-md-6 col-md-offset-2" >
+            <div class="panel panel-default">
+
+                <div class="panel-heading">
+                     Login</div>
+                <div class="panel-body" ng-model="login">
+                        
+                    <form class="form-horizontal" role="form" ng-model="form">
+                    <div class="form-group">
+                        <label  class="col-sm-3 control-label">
+
+                            Email</label>
+                        <div class="col-sm-9">
+                            <input type="email" ng-model="email"  class="form-control floating-label" id="inputEmail3" placeholder="Email"required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-3 control-label">
+                            Password</label>
+                        <div class="col-sm-9 form-control-wrapper">
+                            <input type="password" class="form-control floating-label" id="inputPassword3" placeholder="Password" required ng-model="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"/>
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group last">
+                        <div class="col-sm-offset-3 col-sm-9">
+                            <button type="submit" class="btn btn-success  "  id="submit" ng-click="login()">
+                                Sign in</button>
+                                 <button type="reset" class="btn btn-default ">
+                                Reset</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <div class="panel-footer">
+            </div>
+        </div>
+    </div>
+
+
+<script src="bower_components/bootstrap-material-design/scripts/material.js"></script>
+<script src="bower_components/bootstrap-material-design/scripts/ripples.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+        </script>
